@@ -4,13 +4,13 @@
 	
 	<modelVersion>4.0.0</modelVersion>
 	<parent>
-		<groupId>com.kairos.ecommerce.prices</groupId>
-		<artifactId>ecommerce-price-kairos</artifactId>
+		<groupId>com.ecommerce.prices</groupId>
+		<artifactId>ecommerce-price</artifactId>
 		<version>0.0.1-SNAPSHOT</version>
 	</parent>
   
-  	<artifactId>ecommerce-price-kairos-infrastructure</artifactId>
-    <name>ecommerce-price-kairos-infrastructure</name>
+  	<artifactId>ecommerce-price-infrastructure</artifactId>
+    <name>ecommerce-price-infrastructure</name>
     <description>Capa de infraestructura: API REST</description>
     
     <properties>
@@ -21,7 +21,7 @@
 	
 		<dependency>
             <groupId>${project.groupId}</groupId>
-            <artifactId>ecommerce-price-kairos-domain</artifactId>
+            <artifactId>ecommerce-price-domain</artifactId>
             <version>${project.version}</version>
         </dependency>
         
@@ -71,8 +71,8 @@
 							<generateModelDocumentation>false</generateModelDocumentation>
 							<generateApiTests>true</generateApiTests>
 							<generateApiDocumentation>false</generateApiDocumentation>
- 							<apiPackage>com.kairos.ecommerce.price.adapter.in.rest.interfaces</apiPackage>
-                			<modelPackage>com.kairos.ecommerce.price.adapter.in.rest.interfaces.dto</modelPackage>                			
+ 							<apiPackage>com.ecommerce.price.adapter.in.rest.interfaces</apiPackage>
+                			<modelPackage>com.ecommerce.price.adapter.in.rest.interfaces.dto</modelPackage>                			
                 			<configOptions>
 								<useSpringBoot3>true</useSpringBoot3>
 								<unhandledException>true</unhandledException>

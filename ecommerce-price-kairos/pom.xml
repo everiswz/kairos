@@ -17,10 +17,10 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	
-	<groupId>com.kairos.ecommerce.prices</groupId>
-	<artifactId>ecommerce-price-kairos</artifactId>
+	<groupId>com.ecommerce.prices</groupId>
+	<artifactId>ecommerce-price</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>ecommerce-price-kairos</name>
+	<name>ecommerce-price</name>
 	<description>Application test for e-commerce</description>
 	
 	<properties>

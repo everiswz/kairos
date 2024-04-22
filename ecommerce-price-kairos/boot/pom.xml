@@ -2,13 +2,13 @@
   <modelVersion>4.0.0</modelVersion>
   
 	<parent>
-		<groupId>com.kairos.ecommerce.prices</groupId>
-		<artifactId>ecommerce-price-kairos</artifactId>
+		<groupId>com.ecommerce.prices</groupId>
+		<artifactId>ecommerce-price</artifactId>
 		<version>0.0.1-SNAPSHOT</version>
 	</parent>
   
-	<artifactId>ecommerce-price-kairos-boot</artifactId>
-	<name>ecommerce-price-kairos-boot</name>
+	<artifactId>ecommerce-price-boot</artifactId>
+	<name>ecommerce-price-boot</name>
 	<description>Boot</description>
 	
 	<dependencies>
@@ -26,17 +26,17 @@
 
 		<dependency>
             <groupId>${project.groupId}</groupId>
-            <artifactId>ecommerce-price-kairos-infrastructure</artifactId>
+            <artifactId>ecommerce-price-infrastructure</artifactId>
             <version>${project.version}</version>
         </dependency>     
         <dependency>
             <groupId>${project.groupId}</groupId>
-            <artifactId>ecommerce-price-kairos-application</artifactId>
+            <artifactId>ecommerce-price-application</artifactId>
             <version>${project.version}</version>
         </dependency>
 		<dependency>
             <groupId>${project.groupId}</groupId>
-            <artifactId>ecommerce-price-kairos-domain</artifactId>
+            <artifactId>ecommerce-price-domain</artifactId>
             <version>${project.version}</version>
         </dependency>
 

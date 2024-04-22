@@ -4,14 +4,14 @@
   
   	<modelVersion>4.0.0</modelVersion>
 	<parent>
-		<groupId>com.kairos.ecommerce.prices</groupId>
-		<artifactId>ecommerce-price-kairos</artifactId>
+		<groupId>com.ecommerce.prices</groupId>
+		<artifactId>ecommerce-price</artifactId>
 		<version>0.0.1-SNAPSHOT</version>
 	</parent>
    	
   
-  	<artifactId>ecommerce-price-kairos-domain</artifactId>
-    <name>ecommerce-price-kairos-domain</name>
+  	<artifactId>ecommerce-price-domain</artifactId>
+    <name>ecommerce-price-domain</name>
     <description>Capa dominio (DDD)</description>
     
 	<dependencies>

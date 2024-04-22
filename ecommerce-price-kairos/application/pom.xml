@@ -4,19 +4,19 @@
   	
   	<modelVersion>4.0.0</modelVersion>
 	<parent>
-		<groupId>com.kairos.ecommerce.prices</groupId>
-		<artifactId>ecommerce-price-kairos</artifactId>
+		<groupId>com.ecommerce.prices</groupId>
+		<artifactId>ecommerce-price</artifactId>
 		<version>0.0.1-SNAPSHOT</version>
 	</parent>
    	
-  	<artifactId>ecommerce-price-kairos-application</artifactId>
-    <name>ecommerce-price-kairos-application</name>
+  	<artifactId>ecommerce-price-application</artifactId>
+    <name>ecommerce-price-application</name>
     <description>Capa de aplicación: Casos de uso</description>
     
     <dependencies>
     	<dependency>
             <groupId>${project.groupId}</groupId>
-            <artifactId>ecommerce-price-kairos-domain</artifactId>
+            <artifactId>ecommerce-price-domain</artifactId>
             <version>${project.version}</version>
         </dependency> 
   	</dependencies>
